@@ -31,6 +31,10 @@ header span {
    z-index: -1;
    position: fixed;
    inset: 0;
+
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+
+
 }
 .marvel{
     height: 46px;
@@ -77,8 +81,10 @@ a{
         width: 100vw;
         z-index: -1;
         display: flex;
-        padding-top: 200px;
+        padding-top: 215px;
         
+
+
         
      }
     body{
@@ -86,8 +92,8 @@ a{
         background: linear-gradient(to bottom right, #3f0d0c, #0a0e2a, #016a7f);
     }
     .marvel{
-        height: 26px;
-        width: 65px;
+        height: 36px;
+        width: 80px;
         
     }
     header{
@@ -98,21 +104,40 @@ a{
     height: 116px;
     width: 20px;
     padding: 18px;
-    }
-    main{
-        font-size: 28px;
-        padding:70px;
-        margin-top: -130px;
         
     }
-    p{
-        justify-self:end;
-        margin-top: -100px;
-        font-size: 15px;
+    header span{
+        font-size: 16px;
+        padding-top: 6px;
+    }
+    main h1 {
+        font-size: 42px;
+        display: flex;
+        padding: 70px;
+        position: relative;
+        top: -80px;
+    
+    }
+    .descricao{
+        font-size: 14px;
+        display: flex;
+        align-self: flex-end;
+        padding: 60px;
+        margin-top: -375px;
+                
+    }
+    .bottom{
+        justify-items: center;
+        margin-top: 460px;
+    
+    }
+    a{
+        width: 500px;
         
-        padding: 9px;
-        flex-direction: 0;
-        justify-content:space-betweens;
-
     }
 }
+
+
+   
+
+
